@@ -1,2 +1,1 @@
-# resume
-simple resume web template
+# Resume template

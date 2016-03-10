@@ -1,0 +1,66 @@
+/* Resume Custom CSS */
+
+	/* generic box */
+
+		.box {
+			background-color : #fff;
+			margin : 2em auto 2em auto;
+			padding : 1em;
+			border : 10px solid #333;
+			color : #111;
+		}
+	
+	/* header */
+		
+		header img { border : 10px solid #e8e8e8; }
+	
+		header img:hover { border-color : #efefef; }
+	
+	/* resume boxes */
+		
+		.box ul {
+			list-style-type : none;
+			padding : 0;
+			margin : 0;
+		}
+		
+		.box h2 {
+			text-transform : uppercase;
+			font-size : .8em; 
+			margin-bottom : 1.1em;
+		}
+		
+		.box h3 { margin-bottom : .5em; }
+		
+		.box p { font-size : .8em; }
+		
+		.box li p span { color : #ccc; }
+	
+	/* footer */
+	
+		.box footer a { font-weight : normal !important; }
+	
+/* subfooter */	
+	
+	.box .sub-footer a:link 	{ color : #222 !important; }
+	.box .sub-footer a:visited 	{ color : #222 !important; }
+	.box .sub-footer a:hover 	{ color : #333 !important; text-decoration : none; }
+	.box .sub-footer a:active 	{ color : #333 !important; text-decoration : none; }
+	
+/* flat colors */
+	
+	.flat-yellow 			{ color : #F1C40F; }
+	.flat-orange 			{ color : #2ECC71; }
+	.flat-red 				{ color : #E74C3C; }
+	.flat-purple 			{ color : #8E44AD; }
+	.flat-blue 				{ color : #3498DB; }
+	.flat-green 			{ color : #2ECC71; }
+	.flat-silver 			{ color : #BDC3C7; }
+	
+	.border-flat-yellow 	{ border-color : #F1C40F; }
+	.border-flat-orange 	{ border-color : #2ECC71; }
+	.border-flat-red 		{ border-color : #E74C3C; }
+	.border-flat-purple 	{ border-color : #8E44AD; }
+	.border-flat-blue 		{ border-color : #3498DB; }
+	.border-flat-green 		{ border-color : #2ECC71; }
+	.border-flat-silver 	{ border-color : #BDC3C7; }		
