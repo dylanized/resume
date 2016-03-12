@@ -48,7 +48,9 @@
 	
 	/* header */	
 	
-		header.box { padding : 1rem 1.5rem .5rem 0; }
+		header.box { padding : 1rem 1.5rem 1rem 0; }
+		
+		header.left-col { padding-left : 1rem; }
 		
 		header img { border : 10px solid #e8e8e8; }
 	
@@ -62,7 +64,7 @@
 		
 		header ul.tags {
 			list-style-type : none;
-			margin : 1.25rem 2rem 1rem 2rem;
+			margin : 1rem 2rem 1rem 2rem;
 			padding : 0;
 			line-height : 1.0;
 		}
@@ -124,16 +126,18 @@
 		.social-links a:visited { color : #ccc; }
 
 		.social-links a:hover,
-		.social-links a:active { color : #a8d4f1; }
+		.social-links a:active { color : #2980b9; }
 		
 		.social-links i { font-size : 1.5em; }
 	
 /* subfooter */	
 	
+	.sub-footer { color : #222; }
+	
 	.sub-footer a:link,
-	.sub-footer a:visited 	{ color : #222 !important; }
+	.sub-footer a:visited 	{ color : #333 !important; }
 	.sub-footer a:hover,
-	.sub-footer a:active 	{ color : #333 !important; text-decoration : none; }
+	.sub-footer a:active 	{ color : #555 !important; text-decoration : none; }
 
 	
 /* flat colors */
@@ -177,14 +181,53 @@
 	.link-flat-green a:hover				{ color : #27AE60 !important; }
 	.link-flat-silver a:hover				{ color : #BDC3C7 !important; }
 	
+/* vivid colors */
+
+	.border-vivid-yellow				{ border-color : #f7e041; }
+	.color-vivid-yellow	 				{ color : #f7e041; }
+
+	.border-vivid-orange				{ border-color : #F39C12; }
+	.color-vivid-orange			 		{ color : #F39C12; }
+	
+	.border-vivid-red					{ border-color : #e2413e; }
+	.color-vivid-red 			 		{ color : #e2413e; }
+	
+	.border-vivid-purple				{ border-color : #8c09bc; }
+	.color-vivid-purple			 		{ color : #8c09bc; }
+		
+	.border-vivid-blue					{ border-color : #1488c8; }
+	.color-vivid-blue 			 		{ color : #1488c8; }
+	
+	.border-vivid-green					{ border-color : #00984a; }
+	.color-vivid-green 			 		{ color : #00984a; }
+	
+	.link-vivid-yellow a:hover			{ color : #f7e041 !important; }
+	.link-vivid-orange a:hover			{ color : #F39C12 !important; }
+	.link-vivid-red a:hover				{ color : #e2413e !important; }	
+	.link-vivid-purple a:hover			{ color : #8c09bc !important; }	
+	.link-vivid-blue a:hover			{ color : #1488c8 !important; }	
+	.link-vivid-green a:hover			{ color : #00984a !important; }
+	
 /* devices */		
 		
 	/* sm- */
 	@media only screen and (max-width: 719px) {
 	
-		body { padding-top : 1rem; }
+		body { padding : 0 !important; }
 		
-		header.box { padding : 0 1rem 1rem 1rem; }
+		blockquote {
+			margin-left : 0;
+			margin-right : 0;
+		}
+		
+		header.box {
+			margin-top : 0;
+			padding : 0 1rem 1rem 1rem;
+			margin-left : 0;
+			margin-right : 0;
+		}
+		
+		header.left-col { padding-left : 1rem; }
 		
 		header h1 { line-height : 1.1; margin-bottom : 1rem; }
 	
@@ -193,7 +236,44 @@
 			margin-left : auto;
 			margin-right : auto;
 		}
+		
+		ul.tags {
+			padding : 0 0 1rem 0;
+			margin : 1rem 0 .5rem 0 !important;
+			float : left;
+			width : 100%;
+		}
+		
+		ul.tags li {
+			width : 50%;
+			padding : 0;
+			margin : 0 0 1rem 0;
+			float : left;
+		}
 	
-		.box h3 { font-size : 1.3em; }
+		.box h3 { font-size : 1.2em; }
+		
+		.box p span { display : block; }
+		
+		footer .social-links {
+			float : none;
+			display : block;
+		}
+
+		footer .social-links a {
+			margin-left : 0;
+			margin-right : .5rem;
+		}
+		
+		.sub-footer a {
+			display : block;
+			margin-bottom : .5rem;
+		}
+		
+		.sub-footer a:last-child {
+			color : #555 !important;
+		}
+		
+		.sub-footer .sep { display : none; }
 		
 	}
