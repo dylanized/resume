@@ -19,7 +19,11 @@
 			margin-bottom : 1rem;
 		}
 		
-		h1 { margin-bottom : .15rem; }
+		h1 {
+			margin-top : .5rem;
+			margin-bottom : .25rem;
+			line-height : 1.1;
+		}
 		
 		blockquote, .blockquote {
 			border-flat-top : 1px solid #e8e8e8;
@@ -37,7 +41,7 @@
 
 	/* generic box */
 
-		.box {
+		.resume-box {
 			background-color : #fff;
 			margin : 2rem auto 2rem auto;
 			padding : 1.5rem 1.5rem .75rem 1.5rem;
@@ -48,9 +52,7 @@
 	
 	/* header */	
 	
-		header.box { padding : 1rem 1.5rem 1rem 0; }
-		
-		header.left-col { padding-left : 1rem; }
+		header.resume-box { padding : 1rem 0 1rem 0; }
 		
 		header img { border : 10px solid #e8e8e8; }
 	
@@ -64,56 +66,60 @@
 		
 		header ul.tags {
 			list-style-type : none;
-			margin : 1rem 2rem 1rem 2rem;
+			margin : 1rem auto 1rem auto;
+			max-width : 80%;		
 			padding : 0;
 			line-height : 1.0;
 		}
 		
-		header .tags li {
+		header ul.tags li {
 			font-size : .7em;
 			display : inline-block;
 			padding : 0 1.5rem 0 1.5rem;
 			line-height : 1.0;	
 			margin : 0 0 1rem 0;
-			text-align : center;	
+			text-align : center;
+			width : 32%;
 		}		
 
-		header .tags li a:link,
-		header .tags li a:visited { color : #ccc; font-weight : bold; text-decoration : none; }		
+		header ul.tags li a { display : inline; }	
+		
+		header ul.tags li a:link,
+		header ul.tags li a:visited { color : #ccc; font-weight : bold; text-decoration : none; }		
 
-		header .tags li a:hover,
-		header .tags li a:active { color : #555; font-weight : bold; text-decoration : none; }		
+		header ul.tags li a:hover,
+		header ul.tags li a:active { color : #555; font-weight : bold; text-decoration : none; }		
 	
 	/* resume boxes */
 		
-		.box ul {
+		.resume-box ul {
 			list-style-type : none;
 			padding : 0;
 			margin : 0;
 		}
 		
-		.box li { margin-bottom : 1.15rem; }
+		.resume-box li { margin-bottom : 1.15rem; }
 		
-		.box h2 {
+		.resume-box h2 {
 			text-transform : uppercase;
 			font-size : .8em; 
 			margin-bottom : 1rem;
 		}
 		
-		.box h3 { margin-bottom : .1rem; }
+		.resume-box h3 { margin-bottom : .1rem; }
 		
-		.box h3 a:link 		{ color : #111; font-weight : normal; text-decoration : none; }
-		.box h3 a:visited 	{ color : #111; font-weight : normal; text-decoration : none; }
-		.box h3 a:hover 	{ color : #555; font-weight : normal; text-decoration : none; }
-		.box h3 a:active 	{ color : #555; font-weight : normal; text-decoration : none; }
+		.resume-box h3 a:link 		{ color : #111; font-weight : normal; text-decoration : none; }
+		.resume-box h3 a:visited 	{ color : #111; font-weight : normal; text-decoration : none; }
+		.resume-box h3 a:hover 	{ color : #555; font-weight : normal; text-decoration : none; }
+		.resume-box h3 a:active 	{ color : #555; font-weight : normal; text-decoration : none; }
 		
-		.box p { font-size : .8em; }
+		.resume-box p { font-size : .8em; }
 		
-		.box p span { color : #ccc; }
+		.resume-box p span { color : #ccc; }
 	
 	/* footer */
 	
-		.box footer a { font-weight : normal !important; }
+		.resume-box footer a { font-weight : normal !important; }
 		
 		.social-links { margin-top : -.1rem; }
 		
@@ -132,12 +138,15 @@
 	
 /* subfooter */	
 	
-	.sub-footer { color : #222; }
+	.footer {
+		margin-top : -1rem;
+		color : #222;
+	}
 	
-	.sub-footer a:link,
-	.sub-footer a:visited 	{ color : #333 !important; }
-	.sub-footer a:hover,
-	.sub-footer a:active 	{ color : #555 !important; text-decoration : none; }
+	.footer a:link,
+	.footer a:visited 	{ color : #333 !important; }
+	.footer a:hover,
+	.footer a:active 	{ color : #555 !important; text-decoration : none; }
 
 	
 /* flat colors */
@@ -164,14 +173,6 @@
 	.color-flat-silver 			 	{ color : #BDC3C7; }
 	
 /* flat links */
-
-	/*.link-flat-yellow a:link				{ color : #F1C40F !important; }
-	.link-flat-orange a:link				{ color : #F39C12 !important; }
-	.link-flat-red a:link					{ color : #E74C3C !important; }	
-	.link-flat-purple a:link				{ color : #8E44AD !important; }	
-	.link-flat-blue a:link					{ color : #3498DB !important; }	
-	.link-flat-green a:link					{ color : #27AE60 !important; }
-	.link-flat-silver a:link				{ color : #BDC3C7 !important; }*/
 		
 	.link-flat-yellow a:hover				{ color : #F1C40F !important; }
 	.link-flat-orange a:hover				{ color : #F39C12 !important; }
@@ -209,71 +210,75 @@
 	.link-vivid-green a:hover			{ color : #00984a !important; }
 	
 /* devices */		
-		
-	/* sm- */
-	@media only screen and (max-width: 719px) {
-	
-		body { padding : 0 !important; }
-		
-		blockquote {
-			margin-left : 0;
-			margin-right : 0;
-		}
-		
-		header.box {
-			margin-top : 0;
-			padding : 0 1rem 1rem 1rem;
-			margin-left : 0;
-			margin-right : 0;
-		}
-		
-		header.left-col { padding-left : 1rem; }
-		
-		header h1 { line-height : 1.1; margin-bottom : 1rem; }
-	
-		header img {
-			display : block;
-			margin-left : auto;
-			margin-right : auto;
-		}
-		
-		ul.tags {
-			padding : 0 0 1rem 0;
-			margin : 1rem 0 .5rem 0 !important;
-			float : left;
-			width : 100%;
-		}
-		
-		ul.tags li {
-			width : 50%;
-			padding : 0;
-			margin : 0 0 1rem 0;
-			float : left;
-		}
-	
-		.box h3 { font-size : 1.2em; }
-		
-		.box p span { display : block; }
-		
-		footer .social-links {
-			float : none;
-			display : block;
-		}
 
-		footer .social-links a {
-			margin-left : 0;
-			margin-right : .5rem;
+	@media handheld, only screen and (max-width: 959px) {
+	
+		.resume-box {
+			margin-top : 1rem;
+			margin-bottom : 1rem;
 		}
 		
-		.sub-footer a {
-			display : block;
-			margin-bottom : .5rem;
-		}
+		.footer { margin-top : 0; }
+	
+	}	
+
+	@media handheld, only screen and (max-width: 767px) {
+	
+		/* header */
 		
-		.sub-footer a:last-child {
-			color : #555 !important;
-		}
+			header.resume-box {
+				padding-left : 5%;
+				padding-right : 5%;
+			}
+			
+		/* content */	
+	
+			.resume-box p span { display : block; }		
 		
-		.sub-footer .sep { display : none; }
+		/* contact */		
+			
+			footer .social-links {
+				float : none;
+				display : block;
+				clear : both;
+			}
+	
+			footer .social-links a {
+				margin-left : 0;
+				margin-right : .5rem;
+			}
+			
+		/* footer */
 		
-	}
+			.footer p { display : inline; }
+			
+			.footer a {
+				display : block;
+			}
+			
+			.footer a:last-child {
+				color : #555 !important;
+			}
+			
+			.footer .sep { display : none; }	
+			
+			body { padding-bottom : 1rem; }	
+	
+	}	
+	
+	@media handheld, only screen and (max-width: 539px) {
+	
+			header.resume-box { margin-top : 0rem; }
+		
+			header blockquote { width : auto; }
+			
+			header h6 a { display : block; }
+			
+			header ul.tags { margin-bottom : 2rem; }
+			
+			header ul.tags li {
+				width : 100%;
+				display : block;
+			}	
+	
+	}		
