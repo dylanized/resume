@@ -21,7 +21,7 @@
 		
 		h1 {
 			margin-top : .5rem;
-			margin-bottom : .25rem;
+			margin-bottom : .3rem;
 			line-height : 1.1;
 		}
 		
@@ -33,6 +33,10 @@
 			color : #555;
 			font-size : .75em;
 		}		
+		
+		img { border : 5px solid #e8e8e8; }
+	
+		img:hover { border-color : #efefef; }		
 		
 		a:link,
 		a:visited 	{ color : #3498DB; text-decoration : none; }
@@ -54,15 +58,13 @@
 	
 		header.resume-box { padding : 1rem 0 1rem 0; }
 		
-		header img { border : 10px solid #e8e8e8; }
-	
-		header img:hover { border-color : #efefef; }
-		
 		header a:link,
 		header a:visited { color : #27AE60; text-decoration : none; }
 
 		header a:hover,
 		header a:active { color : #2ECC71; text-decoration : none; }
+		
+		header img { border : 5px solid #e8e8e8; }		
 		
 		header ul.tags {
 			list-style-type : none;
@@ -106,16 +108,27 @@
 			margin-bottom : 1rem;
 		}
 		
-		.resume-box h3 { margin-bottom : .1rem; }
+		.resume-box h3 {
+			margin-bottom : .2rem;
+			line-height : 1.1;
+		}
 		
 		.resume-box h3 a:link 		{ color : #111; font-weight : normal; text-decoration : none; }
 		.resume-box h3 a:visited 	{ color : #111; font-weight : normal; text-decoration : none; }
 		.resume-box h3 a:hover 	{ color : #555; font-weight : normal; text-decoration : none; }
 		.resume-box h3 a:active 	{ color : #555; font-weight : normal; text-decoration : none; }
 		
-		.resume-box p { font-size : .8em; }
+		.resume-box p {
+			font-size : .8em;
+			margin-bottom : .8rem;
+		}
 		
 		.resume-box p span { color : #ccc; }
+		
+		.media-item {
+			display : inline-block;
+			margin-right : .75rem;
+		}
 	
 	/* footer */
 	
@@ -147,7 +160,6 @@
 	.footer a:visited 	{ color : #333 !important; }
 	.footer a:hover,
 	.footer a:active 	{ color : #555 !important; text-decoration : none; }
-
 	
 /* flat colors */
 	
@@ -209,7 +221,9 @@
 	.link-vivid-blue a:hover			{ color : #1488c8 !important; }	
 	.link-vivid-green a:hover			{ color : #00984a !important; }
 	
-/* devices */		
+/* devices */	
+
+	.show-sm { display : none; }	
 
 	@media handheld, only screen and (max-width: 959px) {
 	
@@ -224,6 +238,9 @@
 
 	@media handheld, only screen and (max-width: 767px) {
 	
+		.show-sm { display : block; }		
+		.hide-sm { display : none; }		
+	
 		/* header */
 		
 			header.resume-box {
@@ -231,9 +248,18 @@
 				padding-right : 5%;
 			}
 			
+			header img { max-width : 300px; }
+			
 		/* content */	
 	
-			.resume-box p span { display : block; }		
+			.resume-box p span { display : block; }	
+			
+			.media-item { width : 100%; }
+			
+			.media-item img {
+				display : block !important;
+				/*margin : 0 auto 0 auto;*/
+			}				
 		
 		/* contact */		
 			
@@ -269,8 +295,21 @@
 	@media handheld, only screen and (max-width: 539px) {
 	
 			header.resume-box { margin-top : 0rem; }
+			
+			header h1 {
+				line-height : 1.0;
+				margin-bottom : .7rem;
+			}
+			
+			header .show-sm { margin : 1rem auto 1.25rem auto; }
 		
-			header blockquote { width : auto; }
+			header blockquote {
+				width : auto !important;
+				margin-left : 0 !important;
+				margin-right : 0 !important;
+				padding-left : .5rem !important;
+				padding-right : .5rem !important;
+			}
 			
 			header h6 a { display : block; }
 			
