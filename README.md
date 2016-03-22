@@ -10,12 +10,12 @@ Follow the campaign at [dylan4senate.com](http://dylan4senate.com)
 
 Or see my past projects:
 
-*   [#technology](#technology)
-*   [#politics](#politics)
-*   [#startups](#startups)
-*   [#community](#community)
-*   [#music](#music)
-*   [#education](#education)
+*   [technology](#technology)
+*   [politics](#politics)
+*   [startups](#startups)
+*   [community](#community)
+*   [music](#music)
+*   [education](#education)
 
 ## Technology
 
