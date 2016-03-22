@@ -19,45 +19,54 @@ Or see my past projects:
 
 ## Technology
 
-#### [Revolution Messaging](http://revolutionmessaging.com)
+**[Revolution Messaging](http://revolutionmessaging.com)**
 web engineer for progressive digital agency (2015-present)
 
-####[Asian Efficiency](http://asianefficiency.com)
+**[Asian Efficiency](http://asianefficiency.com)**
 technology & design director for web publishing startup (2014-2015)
 
-####Freelance Web Developer
+**Freelance Web Developer**
 self-employed programmer & designer for hire (2005-2015)
 
-####[Fleishman-Hillard Communications](http://fleishmanhillard.com)
+**[Fleishman-Hillard Communications](http://fleishmanhillard.com)**
 lead web developer for public relations digital team (2006-2009)
 
 ## Politics
 
-####Cherokee Progressives
+**Cherokee Progressives**
 cofounder/coordinator of neighborhood political club (2015-present)
 
-####[St. Louis for Bernie Sanders](http://stl4bernie.com)
+**[St. Louis for Bernie Sanders](http://stl4bernie.com)**
 local campaign volunteer (2015-2016)
 
-####[Cara Spencer for Alderman](http://cara-spencer.com)
+**[Cara Spencer for Alderman](http://cara-spencer.com)**
 assistant campaign manager (2015)
 
-####Jeff Smith for Missouri Senate
+**Jeff Smith for Missouri Senate**
 campaign web developer (2006)
 
-####ProgressiveSTL.com
+**ProgressiveSTL.com**
 local politics blogger (2005-2006)
 
-####Dean for President / [Democracy for America](http://www.democracyforamerica.com/)
+**Dean for President / [Democracy for America](http://www.democracyforamerica.com/)**
 local campaign volunteer (2004-2006)
 
 ## Startups
 
-*   [StartLouis](http://meetup.com/startlouis) - founder/coordinator of local entrepreneur club (2012-2013)
-*   [Startup Chile](http://startupchile.org) - participant in international startup accelerator (2013)
-*   [Code Until Dawn](http://www.meetup.com/codeuntildawn-stlouis/) - cofounder/coordinator of monthly coder meetup (2011-2013)
-*   [Capital Innovators](http://capitalinnovators.com) - competition finalist & mentor for local startup accelerator (2011-2013)
-*   [Dynamite Circle](http://about.dynamitecircle.com) - member of international entrepreneur community (2010-present)
+**[StartLouis](http://meetup.com/startlouis)**
+founder/coordinator of local entrepreneur club (2012-2013)
+
+**[Startup Chile](http://startupchile.org)**
+participant in international startup accelerator (2013)
+
+**[Code Until Dawn](http://www.meetup.com/codeuntildawn-stlouis/)**
+cofounder/coordinator of monthly coder meetup (2011-2013)
+
+**[Capital Innovators](http://capitalinnovators.com)**
+competition finalist & mentor for local startup accelerator (2011-2013)
+
+**[Dynamite Circle](http://about.dynamitecircle.com)**
+member of international entrepreneur community (2010-present)
 
 ## Community
 
