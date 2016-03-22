@@ -122,4 +122,4 @@ jazz band/theater/debate club (graduated 1997)
 
 [dylan4senate@gmail.com](mailto:dylan4senate@gmail.com) / 314.328.4050
 
-[this code released under creative commons](http://github.com/dylanized/resume)
+_[this code released under creative commons](http://github.com/dylanized/resume)_
