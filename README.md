@@ -2,11 +2,13 @@
 
 programmer / activist / candidate
 
+[![Dylan Hassinger - programmer, activist, candidate for Missouri Senate (5th District)](img/dylan_hassinger_arch_sm.jpg)](img/dylanhassinger.jpg "Dylan Hassinger")
+
 > I've filed as a candidate for the Missouri Senate in the Democratic primary on August 2nd 2016, because we need New Ideas & New Leadership in St. Louis
 
-### follow the campaign at [dylan4senate.com](http://dylan4senate.com)
+Follow the campaign at [dylan4senate.com](http://dylan4senate.com)
 
-or see my past projects:
+Or see my past projects:
 
 *   [#technology](#technology)
 *   [#politics](#politics)
@@ -14,8 +16,6 @@ or see my past projects:
 *   [#community](#community)
 *   [#music](#music)
 *   [#education](#education)
-
-[![Dylan Hassinger - programmer, activist, candidate for Missouri Senate (5th District)](img/dylanhassinger.jpg)](img/dylanhassinger.jpg "Dylan Hassinger")
 
 ## Technology
 
