@@ -2,7 +2,7 @@
 
 programmer / activist / candidate
 
-[![Dylan Hassinger - programmer, activist, candidate for Missouri Senate (5th District)](img/dylan_hassinger_arch_sm.jpg)](img/dylanhassinger.jpg "Dylan Hassinger")
+[![Dylan Hassinger - programmer, activist, candidate for Missouri Senate (5th District)](img/dylanhassinger_sm.jpg)](img/dylanhassinger.jpg "Dylan Hassinger")
 
 > I've filed as a candidate for the Missouri Senate in the Democratic primary on August 2nd 2016, because we need New Ideas & New Leadership in St. Louis
 
@@ -19,19 +19,37 @@ Or see my past projects:
 
 ## Technology
 
-*   [Revolution Messaging](http://revolutionmessaging.com) - web engineer for progressive digital agency (2015-present)
-*   [Asian Efficiency](http://asianefficiency.com) - technology & design director for web publishing startup (2014-2015)
-*   Freelance Web Developer - self-employed programmer & designer for hire (2005-2015)
-*   [Fleishman-Hillard Communications](http://fleishmanhillard.com) - lead web developer for public relations digital team (2006-2009)
+#### [Revolution Messaging](http://revolutionmessaging.com)
+web engineer for progressive digital agency (2015-present)
+
+####[Asian Efficiency](http://asianefficiency.com)
+technology & design director for web publishing startup (2014-2015)
+
+####Freelance Web Developer
+self-employed programmer & designer for hire (2005-2015)
+
+####[Fleishman-Hillard Communications](http://fleishmanhillard.com)
+lead web developer for public relations digital team (2006-2009)
 
 ## Politics
 
-*   Cherokee Progressives - cofounder/coordinator of neighborhood political club (2015-present)
-*   [St. Louis for Bernie Sanders](http://stl4bernie.com) - local campaign volunteer (2015-2016)
-*   [Cara Spencer for Alderman](http://cara-spencer.com) - assistant campaign manager (2015)
-*   Jeff Smith for Missouri Senate - campaign web developer (2006)
-*   ProgressiveSTL.com - local politics blogger (2005-2006)
-*   Dean for President / [Democracy for America](http://www.democracyforamerica.com/) - local campaign volunteer (2004-2006)
+####Cherokee Progressives
+cofounder/coordinator of neighborhood political club (2015-present)
+
+####[St. Louis for Bernie Sanders](http://stl4bernie.com)
+local campaign volunteer (2015-2016)
+
+####[Cara Spencer for Alderman](http://cara-spencer.com)
+assistant campaign manager (2015)
+
+####Jeff Smith for Missouri Senate
+campaign web developer (2006)
+
+####ProgressiveSTL.com
+local politics blogger (2005-2006)
+
+####Dean for President / [Democracy for America](http://www.democracyforamerica.com/)
+local campaign volunteer (2004-2006)
 
 ## Startups
 
