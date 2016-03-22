@@ -104,10 +104,17 @@ pro audio salesperson & department manager (2002-2005)
 
 ## Education
 
-*   [Webster University](http://webster.edu) - bachelor of arts degree with a major in History and minor in Education (2003-2010)
-*   [Maplewood Middle](http://mrhschools.net/) / [Roosevelt High School](http://www.slps.org/Page/8744) - social studies teacher prep training (2004-2005)
-*   [St. Louis Community College](http://stlcc.edu) - music/design/general studies at Meramec & Forest Park campuses (1998-2004)
-*   Parkway South High School - jazz band/theater/debate club (graduated 1997)
+**[Webster University](http://webster.edu)**  
+bachelor of arts degree with a major in History and minor in Education (2003-2010)
+
+**[Maplewood Middle](http://mrhschools.net/) / [Roosevelt High School](http://www.slps.org/Page/8744)**  
+social studies teacher prep training (2004-2005)
+
+**[St. Louis Community College](http://stlcc.edu)**  
+music/design/general studies at Meramec & Forest Park campuses (1998-2004)
+
+**Parkway South High School**  
+jazz band/theater/debate club (graduated 1997)
 
 ## Contact
 
@@ -115,4 +122,4 @@ pro audio salesperson & department manager (2002-2005)
 
 [dylan4senate@gmail.com](mailto:dylan4senate@gmail.com) / 314.328.4050
 
-[designed and built by @dylanized](http://github.com/dylanized/resume), released under creative commons
+[this code released under creative commons](http://github.com/dylanized/resume)
